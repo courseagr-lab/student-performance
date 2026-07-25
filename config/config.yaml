@@ -1,0 +1,21 @@
+data:
+  raw_path: "data/raw/student_performance_raw.csv"
+  interim_path: "data/interim/student_cleaned.csv"
+  processed_path: "data/processed/student_processed.csv"
+  target: "passed"
+
+cleaning:
+  attendance_rate_max: 100
+  attendance_rate_min: 0
+  hours_studied_min: 0
+  previous_score_max: 100
+
+model:
+  test_size: 0.2
+  max_iter: 200
+  random_state: 42
+
+output:
+  model_path: "models/logreg_student.pkl"
+  metrics_path: "reports/metrics.json"
+  figures_path: "reports/figures/"
