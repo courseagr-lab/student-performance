@@ -20,7 +20,7 @@ def load_config(path="config/config.yaml"):
         return yaml.safe_load(f)
 
 
-def load_raw(df):
+def load_raw(config):
     return pd.read_csv(project_path(config["data"]["raw_path"]))
 
 
