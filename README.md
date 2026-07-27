@@ -54,8 +54,6 @@ Model dievaluasi menggunakan:
 - **Recall** — proporsi kasus "lulus" aktual yang berhasil teridentifikasi
 - **F1-score** — rata-rata harmonik dari precision dan recall
 
-*(Hasil akan ditambahkan setelah proses training final.)*
-
 ## Struktur Project
 
 ```
