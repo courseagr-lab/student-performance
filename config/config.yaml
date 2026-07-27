@@ -12,7 +12,7 @@ cleaning:
 
 model:
   test_size: 0.2
-  max_iter: 200
+  max_iter: 400
   random_state: 42
 
 output:
